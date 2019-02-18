@@ -1,5 +1,7 @@
 package com.zipcodewilmington.assessment1.part1;
 
+import org.junit.Assert;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -9,23 +11,44 @@ public class BasicStringUtils {
      * @return string with identical content, and the first character capitalized
      */
     public static String camelCase(String str) {
-        return null;
+       return null;
     }
+
+
+
+
+
+
+
+
+
+
 
     /**
      * @param str string input from client
      * @return string with identical contents, in the reverse order
      */
     public static String reverse(String str) {
-        return null;
+        int i, len = str.length();
+        StringBuilder dest = new StringBuilder(len);
+
+        for (i = (len - 1); i >= 0; i--){
+            dest.append(str.charAt(i));
+        }
+
+        return dest.toString();
+
+
     }
 
     /**
      * @param str string input from client
      * @return string with identical contents, in reverse order, with first character capitalized
      */
-    public static String reverseThenCamelCase(String str) {
-        return null;
+    public static String reverseThenCamelCase(String str) { return null;
+
+
+
     }
 
 

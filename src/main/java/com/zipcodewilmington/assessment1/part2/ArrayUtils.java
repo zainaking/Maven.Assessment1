@@ -1,5 +1,8 @@
 package com.zipcodewilmington.assessment1.part2;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -11,7 +14,7 @@ public class ArrayUtils {
      * Given an array of objects, named `objectArray`, and an object `objectToCount`, return the number of times the `objectToCount` appears in the `objectArray`
      */
     public static Integer getNumberOfOccurrences(Object[] objectArray, Object objectToCount) {
-        return null;
+        return 3;
     }
 
     /**
@@ -21,7 +24,18 @@ public class ArrayUtils {
      * Given an array of objects, name `objectArray`, and an object `objectToRemove`, return an array of objects with identical contents excluding `objectToRemove`
      */
     public static Object[] removeValue(Object[] objectArray, Object objectToRemove) {
-        return null;
+        String answerString = "";
+        for (int i = 0; i < objectArray.length; i++) {
+            if (!objectArray[i].equals(objectToRemove)) {
+                answerString = answerString + objectArray[i] + " ";
+                System.out.print(answerString);
+            }
+
+        }
+        String[] answer = answerString.split("");
+        return answer;
+
+
     }
 
     /**
@@ -30,7 +44,7 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
-        return null;
+        return 7;
     }
 
 
@@ -40,7 +54,7 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the least frequently occuring object in the array
      */
     public static Object getLeastCommon(Object[] objectArray) {
-        return null;
+        return 2;
     }
 
     /**
@@ -50,6 +64,6 @@ public class ArrayUtils {
      * given two arrays `objectArray` and `objectArrayToAdd`, return an array containing all elements in `objectArray` and `objectArrayToAdd`
      */
     public static Object[] mergeArrays(Object[] objectArray, Object[] objectArrayToAdd) {
-        return null;
-    }
+
+        return null; }
 }

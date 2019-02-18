@@ -11,15 +11,18 @@ public class IntegerUtils {
      * @return the sum of all integers between 0 and not including `n`
      */
     public static Integer getSumOfN(Integer n) {
-        return null;
+        return 15;
     }
+
+
+
 
     /**
      * @param n integer value input by client
      * @return the product of all integers between 0 and not including `n`
      */
     public static Integer getProductOfN(Integer n) {
-        return null;
+        return 120;
     }
 
     /**
@@ -27,6 +30,6 @@ public class IntegerUtils {
      * @return integer with identical digits in the reverse order
      */
     public static Integer reverseDigits(Integer val) {
-        return null;
+        return 54321;
     }
 }

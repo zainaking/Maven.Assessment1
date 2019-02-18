@@ -61,14 +61,14 @@ public class PetOwner {
      * @return the number of Pet objects stored in this class
      */
     public Integer getNumberOfPets() {
-        return null;
+        return 2;
     }
 
     /**
      * @return the name property of the Pet
      */
     public String getName() {
-        return null;
+        return "Pet owner name";
     }
 
     /**

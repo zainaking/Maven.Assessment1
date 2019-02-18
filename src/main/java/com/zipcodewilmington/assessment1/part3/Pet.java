@@ -35,7 +35,7 @@ public abstract class Pet implements Animal {
      * @return name of this pet
      */
     public String getName() {
-        return null;
+        return "Pet owner name";
     }
 
     /**

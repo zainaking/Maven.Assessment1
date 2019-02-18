@@ -1,5 +1,7 @@
 package com.zipcodewilmington.assessment1.part3;
 
+import javax.naming.Name;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -17,6 +19,7 @@ public class Cat extends Pet {
      */
     public Cat(Integer age) {
     }
+
 
     /**
      * @param name name of this Cat
@@ -38,6 +41,7 @@ public class Cat extends Pet {
      * @return meow as a string
      */
     public String speak() {
-        return null;
+
+        return "Meow";
     }
 }
